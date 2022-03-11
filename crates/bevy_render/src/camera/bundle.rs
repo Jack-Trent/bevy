@@ -8,7 +8,7 @@ use crate::{
 };
 use bevy_ecs::bundle::Bundle;
 use bevy_math::Vec3;
-use bevy_transform::components::{GlobalTransform, Transform};
+use bevy_transform::{GlobalTransform, Transform};
 
 use super::CameraProjection;
 
