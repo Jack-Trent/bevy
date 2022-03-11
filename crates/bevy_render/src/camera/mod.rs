@@ -7,7 +7,7 @@ mod projection;
 pub use active_cameras::*;
 use bevy_asset::Assets;
 use bevy_math::UVec2;
-use bevy_transform::GlobalTransform;
+use bevy_transform::components::GlobalTransform;
 use bevy_utils::HashMap;
 use bevy_window::Windows;
 pub use bundle::*;
